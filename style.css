@@ -24,3 +24,19 @@ header > section > div {
 	border : 1px solid yellow;
 } 
 
+/******** Nav *******/
+div.nav nav {
+
+}
+
+div.nav nav menu {
+
+}
+
+div.nav menu > li {
+	float : right;
+}
+
+div.nav menu > li a {
+	padding : 10px;
+}
