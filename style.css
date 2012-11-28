@@ -13,12 +13,14 @@ div.containers div.content {
 	border : 1px solid black;
 }
 
-div.content > section {
+div.content > section,
+header > section {
 	border : 1px solid green;
 }
 
 div.content > section > div,
-footer > div {
+footer > div,
+header > section > div {
 	border : 1px solid yellow;
 } 
 
