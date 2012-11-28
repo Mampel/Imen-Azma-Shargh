@@ -25,8 +25,11 @@ header > section > div {
 } 
 
 /******** Nav *******/
-div.nav nav {
+section.menubar {
+	background : url(images/bg_nav.png) repeat-x; 
+}
 
+div.nav nav {
 }
 
 div.nav nav menu {
@@ -39,4 +42,6 @@ div.nav menu > li {
 
 div.nav menu > li a {
 	padding : 10px;
+	border-right : 1px solid #DDD; 
+	
 }
