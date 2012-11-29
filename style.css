@@ -41,9 +41,23 @@ div.nav > nav > menu > li {
 	position : relative;  
 }
 
+div.nav > nav > menu > li span {
+	background : url(images/arrows-menu.png) 0 -100px;
+	background-repeat : no-repeat;
+	width : 10px;
+	height : 10px;
+	display : block;
+	position : absolute;
+	right : 50%;
+} 
+
+div.nav > nav > menu > li:hover span {
+	background-position: -10px -100px;
+}
+
 nav > menu > li > a {
 	display : block;
-	padding : 10px 20px;
+	padding : 10px 10px;
 	border-right : 1px solid #DDD; 
 	text-decoration : none;
 	color : #333;
