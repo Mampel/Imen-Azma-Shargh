@@ -139,7 +139,6 @@ footer section.fmenu ul li a:hover {
 footer section.copyright p {
 	display : block;
 	text-align : center;
-	font-family: Tahoma;
 	direction : ltr;
 	font-size : 13px; 
 	color : #ddd;
@@ -156,3 +155,20 @@ footer section.copyright p a:hover {
 	text-decoration : underline; 
 }
 
+footer div.address p {
+	display : block;
+	padding-right : 5px; 
+	text-align : right;
+	color : #ddd;
+	font-size : 14px;
+	line-height : 18px; 
+}
+
+footer div.address p span {
+	font-weight : bold; 
+}
+
+footer div.address p a {
+	text-decoration : none;
+	color : #ddd; 
+}
