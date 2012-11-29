@@ -1,5 +1,5 @@
 body{
-	background-color: #DDD;
+	background: #BCBCBC url(images/bg.jpg) repeat center top fixed;
 }
 
 div.containers {
