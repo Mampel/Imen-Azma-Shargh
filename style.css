@@ -103,3 +103,8 @@ nav menu > li li a {
 	white-space : nowrap;  
 }
 
+/*****  Footer *****/
+div.fcontainers {
+	background-color : #333; 
+}
+
