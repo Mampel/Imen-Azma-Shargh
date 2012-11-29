@@ -144,9 +144,9 @@ footer section.copyright p {
 	display : block;
 	text-align : center;
 	font-size : 13px; 
-	color : #ccc;
+	color : #ddd;
 	padding-bottom : 10px; 
-	text-shadow: 0 1px 10px #FFF;
+	text-shadow: 0 1px 10px #aaa;
 }
 
 footer section.copyright p a {
