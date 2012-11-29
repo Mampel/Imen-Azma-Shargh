@@ -143,6 +143,8 @@ footer section.fmenu ul li a:hover {
 footer section.copyright p {
 	display : block;
 	text-align : center;
+	font-family: Tahoma;
+	direction : ltr;
 	font-size : 13px; 
 	color : #ddd;
 	padding-bottom : 10px; 
