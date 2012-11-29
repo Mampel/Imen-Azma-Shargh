@@ -36,12 +36,45 @@ div.nav nav menu {
 
 }
 
-div.nav menu > li {
+div.nav > nav > menu > li {
 	float : right;
+	position : relative;  
 }
 
-div.nav menu > li a {
-	padding : 10px;
+nav > menu > li > a {
+	display : block;
+	padding : 10px 20px;
 	border-right : 1px solid #DDD; 
-	
+	text-decoration : none;
+	color : #333;
+	text-shadow : 1px 1px 1px #fff; 
+	text-align : center;
+}
+
+div.nav menu > li a:hover {
+	background : url(images/bg_nav_hover.png) repeat-x;
+}
+
+div.nav menu > li > menu {
+	position : absolute; 
+	display : none;
+	background : #fff;
+	top : 100%;
+	right : 0;
+	z-index : 10 ;
+	border : 1px solid #ddd;
+}
+
+div.nav menu > li:hover menu {
+	display : block;
+} 
+
+nav menu > li li a {
+	display : block;
+	text-decoration : none;
+	text-align : center;
+	padding : 10px 30px;
+	border-bottom: 1px solid #eee;
+	color : #111;
+	text-shadow : 1px 1px 1px #fff; 
 }
