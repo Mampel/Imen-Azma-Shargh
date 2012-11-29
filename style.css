@@ -76,6 +76,7 @@ div.nav menu > li:hover > a{
 }
 
 div.nav menu > li > menu {
+	min-width : 100%; 
 	position : absolute; 
 	display : none;
 	background : #fff;
@@ -98,5 +99,7 @@ nav menu > li li a {
 	border-bottom: 1px solid #eee;
 	color : #111;
 	text-shadow : 1px 1px 1px #fff; 
-	font-size : 12px; 
+	font-size : 12px;
+	white-space : nowrap;  
 }
+
