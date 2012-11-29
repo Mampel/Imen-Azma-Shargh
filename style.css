@@ -67,7 +67,7 @@ nav > menu > li > a {
 	font-size : 12px; 
 }
 
-div.nav menu > li a:hover {
+div.nav menu > li:hover > a{
 	background : url(images/bg_nav_hover.png) repeat-x;
 }
 
