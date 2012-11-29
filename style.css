@@ -112,10 +112,6 @@ footer {
 	font-family : Tahoma, Arial, sans-serif;
 }
 
-footer section.fmenu ul {
-	margin-top : 5px; 
-}
-
 footer section.fmenu ul li{
 	float : right;
 }
