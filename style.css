@@ -30,6 +30,7 @@ section.menubar {
 }
 
 div.nav nav {
+	font-family : Tahoma, Arial, sans-serif;
 }
 
 div.nav nav menu {
@@ -63,6 +64,7 @@ nav > menu > li > a {
 	color : #333;
 	text-shadow : 1px 1px 1px #fff; 
 	text-align : center;
+	font-size : 12px; 
 }
 
 div.nav menu > li a:hover {
@@ -73,6 +75,7 @@ div.nav menu > li > menu {
 	position : absolute; 
 	display : none;
 	background : #fff;
+	box-shadow: -1px 1px 4px 0px #222;
 	top : 100%;
 	right : 0;
 	z-index : 10 ;
@@ -86,9 +89,10 @@ div.nav menu > li:hover menu {
 nav menu > li li a {
 	display : block;
 	text-decoration : none;
-	text-align : center;
-	padding : 5px 30px;
+	text-align : right;
+	padding: 8px 8px 8px 60px;
 	border-bottom: 1px solid #eee;
 	color : #111;
 	text-shadow : 1px 1px 1px #fff; 
+	font-size : 12px; 
 }
