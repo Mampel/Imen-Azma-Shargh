@@ -260,9 +260,17 @@ div.content div.vote h3 {
 
 div.content div.vote form {
 	font-size : 14px;
-	line-height : 17px; 
+	line-height : 20px; 
 	padding : 10px 7px; 
 }
+
+div.content div.vote form span.bb {
+	border-bottom : 2px solid #ccc; 
+}
+
+div.content div.vote form span.bb:hover {
+	border-bottom-color : #eee;
+} 
 
 div.content div.vote form input {
 	margin-left : 5px; 
