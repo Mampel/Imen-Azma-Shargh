@@ -216,3 +216,35 @@ div.gtranslate .skiptranslate {
 	float: right;
 	margin : 5px 10px 10px 5px;
 }
+
+/***** Vote *****/
+div.content div.vote {
+	padding : 5px;
+	background-color : #e1e1e1;  
+}
+
+div.content div.vote h2 {
+	font-size : 17px;
+	line-height : 17px; 
+	background : #4f5355;
+	color : #fff;
+	font-family :bold 'Yekan';
+	border-bottom : 1px solid #FFFFFF;
+	border-top-left-radius : 3px;
+	border-top-right-radius : 3px;
+	text-shadow : 1px 1px 0 #282a2b;
+	padding: 8px 0;  
+}
+
+div.content div.vote h3 {
+	font-size : 15px;
+	line-height : 15px;  
+	font-family : 'Yekan';
+	color : #333;
+	padding : 5px;
+}
+
+div.content div.vote form {
+	font-size : 14px;
+	line-height : 17px; 
+}
