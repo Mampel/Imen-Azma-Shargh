@@ -1,5 +1,18 @@
+
+@font-face {
+	font-family:'Yekan';
+	src:url('font/byekan.eot');
+	src:url('font/byekan.eot?#iefix') format('embedded-opentype'),
+		url('font/byekan.woff') format('woff'),
+		url('font/byekan.ttf') format('truetype'),
+		url('font/byekan.svg#byekan') format('svg');
+	font-style:normal;
+	font-weight:normal;
+}
+
 body{
 	background: #BCBCBC url(images/background-body.jpg) repeat center top fixed;
+	font-family:'Yekan';
 }
 
 div.containers {
@@ -40,7 +53,8 @@ section.menubar {
 }
 
 div.nav nav {
-	font-family : Tahoma, Arial, sans-serif;
+	font-family:'Yekan';
+	/*font-family : Tahoma, Arial, sans-serif;*/
 }
 
 div.nav nav menu {
@@ -74,7 +88,7 @@ nav > menu > li > a {
 	color : #333;
 	text-shadow : 1px 1px 1px #fff; 
 	text-align : center;
-	font-size : 12px; 
+	font-size : 13px; 
 }
 
 div.nav menu > li:hover > a{
@@ -166,12 +180,13 @@ footer div.address p {
 	padding-right : 5px; 
 	text-align : right;
 	color : #ddd;
-	font-size : 14px;
+	font-family:'Yekan';
+	font-size : 13px;
 	line-height : 18px; 
 }
 
 footer div.address p span {
-	font-weight : bold; 
+	/*font-weight : bold; */
 }
 
 footer div.address p a {
