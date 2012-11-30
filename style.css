@@ -230,13 +230,13 @@ div.gtranslate .skiptranslate {
 	margin : 5px 10px 10px 5px;
 }
 
-/***** Vote *****/
-div.content div.vote {
+/***** Panel *****/
+div.content div.panel {
 	background-color : #e1e1e1; 
 	border-bottom: 3px solid #8dbcc6; 
 }
 
-div.content div.vote h2 {
+div.content div.panel h2 {
 	font-size : 17px;
 	line-height : 17px; 
 	background : #4f5355;
@@ -249,6 +249,7 @@ div.content div.vote h2 {
 	padding: 8px 0;  
 }
 
+/***** Vote *****/
 div.content div.vote h3 {
 	font-size : 15px;
 	line-height : 15px;  
