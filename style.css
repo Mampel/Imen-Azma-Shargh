@@ -193,3 +193,22 @@ footer div.address p a {
 	text-decoration : none;
 	color : #ddd; 
 }
+
+/***** google translate *****/
+div.gtranslate  .goog-te-gadget-icon {
+	display: none;
+}
+
+div.gtranslate #trans {
+	float: right;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	text-shadow: 1px 1px 1px #fff;
+	padding-top: 8px;
+}
+
+div.gtranslate .skiptranslate {
+	float: right;
+	margin : 5px 10px 10px 5px;
+}
