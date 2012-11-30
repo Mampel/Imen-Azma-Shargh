@@ -279,3 +279,15 @@ div.content div.vote form span.bb:hover {
 div.content div.vote form input {
 	margin-left : 5px; 
 }
+
+/***** email *****/
+div.content div.mail a {
+	display : block;
+	text-decoration : none;
+	color : #999; 
+	padding : 15px ; 
+}
+
+div.content div.mail a:hover {
+	color : #09F;
+}
