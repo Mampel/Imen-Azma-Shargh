@@ -10,6 +10,20 @@
 	font-weight:normal;
 }
 
+.btn {
+	width : 60px;
+	background : url(images/bg_nav.png) repeat-x; 
+	border : 1px solid #d4d4d4;
+	border-radius: 4px;
+	padding : 5px 10px; 
+}
+
+.btn:hover {
+	text-shadow : 0 -1px 0 rgba(0,0,0,0.3);
+	border-bottom-color : #2a65a0;
+	background : url(images/bg_nav_hover.png) repeat-x;
+}
+
 body{
 	background: #BCBCBC url(images/background-body.jpg) repeat center top fixed;
 	font-family:'Yekan';
@@ -252,28 +266,4 @@ div.content div.vote form {
 
 div.content div.vote form input {
 	margin-left : 5px; 
-}
-
-div.content  div.vote form input#btn_vote,
-div.content  div.vote form input#btn_result {
-	width : 60px;
-	background : -moz-linear-gradient(#fafafa, #eaeaea);
-	background : -webkit-linear-gradient(#fafafa, #eaeaea);
-	-ms-filter : "progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bdc', endColorstr='#3072b3')";
-	text-shadow: 0 1px 0 #fff;
-	border : 1px solid #d4d4d4;
-	border-radius: 4px;
-	padding : 5px 10px; 
-}
-
-div.content  div.vote form input#btn_vote:hover,
-div.content  div.vote form input#btn_result:hover {
-	color : #fff;
-	text-shadow : 0 -1px 0 rgba(0,0,0,0.3);
-	border-color : #518cc6;
-	border-bottom-color : #2a65a0;
-	background : #599bdc;
-	background : -moz-linear-gradient(#599bdc, #3072b3);
-	background : -webkit-linear-gradient(#599bdc, #3072b3);
-	-ms-filter : "progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bdc', endColorstr='#3072b3')";
 }
