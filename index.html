@@ -7,6 +7,7 @@
 	<link type="text/css" rel="stylesheet" href="style.css" />
 	<script type="text/javascript" src="script/html5shiv.js" ></script>
 	<script type="text/javascript" src="script/script.js" ></script>
+	<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> <!-- work when upload on host -->
 </head>
 <body>
 	<div class="containers">
@@ -16,8 +17,16 @@
 					header
 				</section>
 				<section class="cover menubar">
-					<div class="w6 mh3 left gtranslate last">
-						google translate
+					<div class="w6 mh3 lh2 left gtranslate last">
+						<div id="google_translate_element"><span id="trans">مترجم:</span></div>
+						<script>
+							function googleTranslateElementInit() {
+							  new google.translate.TranslateElement({
+							    pageLanguage: 'en',
+							    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+							  }, 'google_translate_element');
+							}
+						</script>
 					</div>
 					<div class="mh3 ml6 nav last">
 						<nav class="cover">
