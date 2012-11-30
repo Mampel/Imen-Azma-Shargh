@@ -283,6 +283,8 @@ div.content div.vote form input {
 /***** email *****/
 div.content div.mail a {
 	display : block;
+	font-size : 15px;
+	line-height : 15px;
 	text-decoration : none;
 	color : #999; 
 	padding : 15px ; 
