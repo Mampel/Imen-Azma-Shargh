@@ -17,6 +17,12 @@ div.containers div.content {
 	border : 1px solid black;
 }
 
+div.containers header section.header{
+	height: 278px;
+	background: url(images/header.jpg) no-repeat center top;
+	background-size: cover;
+}
+
 div.content > section,
 header > section {
 	border : 1px solid green;
