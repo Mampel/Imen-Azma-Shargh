@@ -19,6 +19,7 @@
 }
 
 .btn:hover {
+	border-bottom-color : #2a65a0;
 	background : url(images/bg_nav_hover.png) repeat-x;
 }
 
