@@ -129,7 +129,7 @@ div.fcontainers {
 }
 
 footer {
-	font-family : Tahoma, Arial, sans-serif;
+	font-family:'Yekan';
 }
 
 footer section.fmenu ul li{
@@ -140,8 +140,8 @@ footer section.fmenu ul li a {
 	display : block;
 	color : #999;
 	text-decoration : none; 
-	font-size : 11px; 
-	line-height : 11px; 
+	font-size : 12px; 
+	line-height : 12px; 
 	padding :2px 8px 2px 6px;
 	text-align : right; 
 	border-right : 1px solid #666;
@@ -162,7 +162,7 @@ footer section.fmenu ul li a:hover {
 
 footer section.copyright p {
 	display : block;
-	text-align : center;
+	text-align : right;
 	direction : ltr;
 	font-size : 13px; 
 	color : #ddd;
