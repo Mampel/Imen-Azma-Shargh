@@ -256,7 +256,7 @@ div.content div.vote form input {
 
 div.content  div.vote form input#btn_vote,
 div.content  div.vote form input#btn_result {
-	background : 
+	width : 60px;
 	background : -moz-linear-gradient(#fafafa, #eaeaea);
 	background : -webkit-linear-gradient(#fafafa, #eaeaea);
 	-ms-filter : "progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bdc', endColorstr='#3072b3')";
