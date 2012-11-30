@@ -19,8 +19,6 @@
 }
 
 .btn:hover {
-	text-shadow : 0 -1px 0 rgba(0,0,0,0.3);
-	border-bottom-color : #2a65a0;
 	background : url(images/bg_nav_hover.png) repeat-x;
 }
 
