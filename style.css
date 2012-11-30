@@ -144,12 +144,16 @@ footer section.fmenu ul li a {
 	line-height : 11px; 
 	padding :2px 8px 2px 6px;
 	text-align : right; 
-	border-left : 1px solid #111;
+	border-right : 1px solid #666;
 	-webkit-transition : color 500ms;
 	-ms-transition : color 500ms;
 	-moz-transition : color 500ms;
 	-o-transition : color 500ms;
 	transition : color 500ms;
+}
+
+footer section.fmenu ul li:first-child a {
+	border-right : 0; 
 }
 
 footer section.fmenu ul li a:hover {
