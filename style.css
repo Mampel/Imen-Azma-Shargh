@@ -233,12 +233,16 @@ div.gtranslate .skiptranslate {
 /***** Panel *****/
 div.content div.panel {
 	background-color : #e1e1e1; 
-	border-bottom: 3px solid #8dbcc6; 
+	border-bottom : 3px solid #8dbcc6; 
+	margin-bottom : 15px; 
+	border-bottom-left-radius : 3px;
+	border-bottom-right-radius : 3px;    
 }
 
 div.content div.panel h2 {
 	font-size : 17px;
 	line-height : 17px; 
+	text-align : center; 
 	background : #4f5355;
 	color : #fff;
 	font-family :bold 'Yekan';
