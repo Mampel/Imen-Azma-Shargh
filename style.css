@@ -293,3 +293,15 @@ div.content div.mail a {
 div.content div.mail a:hover {
 	color : #09F;
 }
+
+/***** login *****/
+header section.header div.login {
+	top : 0px;
+	right : 10px; 
+}
+
+header section.header div.loginpanel {
+	top : 50%;
+	right : 30%;
+	background : #f4f5f6;   
+}
