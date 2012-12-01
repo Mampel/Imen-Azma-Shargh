@@ -302,6 +302,11 @@ header section.header div.login {
 	cursor : pointer;   
 }
 
+header section.header div.login a {
+	text-decoration : none; 
+	color : #111;
+}
+
 header section.header div.login span {
 	background: url(images/arrows-menu.png) 0 -100px;
 	background-repeat: no-repeat;
@@ -309,7 +314,7 @@ header section.header div.login span {
 	height: 10px;
 	display: block;
 	position: absolute;
-	right: 45%;
+	right: 55%;
 }
 
 header section.header div.login:hover span {
