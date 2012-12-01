@@ -306,9 +306,10 @@ header section.header div.loginpanel {
 	background : #f4f5f6;
 	padding : 5px;
 	border-radius : 5px; 
+	box-shadow : 1px 1px 15px #222; 
 }
 
-header section.header div.loginpanel a {
+header section.header div.loginpanel a.colse {
 	display : block; 
 	background :  url(images/smallClose.png);
 	height : 30px;
@@ -352,4 +353,21 @@ header section.header div.loginpanel form section.form p input {
 	background-color : #dde; 
 	border-color: #C9CACB #fff #fff #C9CACB;
 	outline: none;
+}
+
+header section.header div.loginpanel form div.hrline {
+	background : url('data:images/png;base64,R0lGODlhBQAFAJECANbX2P3+/v///wAAACH5BAEAAAIALAAAAAAFAAUAAAIHlA2Zwe1nCgA7');
+	clear : both;
+	margin : 10px 8px;  
+	height : 5px; 
+}
+
+header section.header div.loginpanel a#forgetpass {
+	font-size : 12px;
+	color : #999;
+	text-decoration : none;   
+}
+
+header section.header div.loginpanel a#forgetpass:hover {
+	color : #09F;
 }
