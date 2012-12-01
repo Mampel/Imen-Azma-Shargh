@@ -301,7 +301,55 @@ header section.header div.login {
 }
 
 header section.header div.loginpanel {
-	top : 50%;
+	top : 0;
 	right : 30%;
-	background : #f4f5f6;   
+	background : #f4f5f6;
+	padding : 5px;
+	border-radius : 5px; 
+}
+
+header section.header div.loginpanel a {
+	display : block; 
+	background :  url(images/smallClose.png);
+	height : 30px;
+	width : 36px;  
+}
+
+header section.header div.loginpanel a:hover {
+	background-position: 0 -30px;
+}
+
+header section.header div.loginpanel form section.bgl {
+	background : url(images/lock-and-key.png);
+	width : 128px;
+	height : 128px;  
+}
+
+header section.header div.loginpanel form section.form h2 {
+	color : #111;
+	font-size : 20px ; 
+	line-height : 25px; 
+} 
+
+header section.header div.loginpanel form section.form h3 {
+	color : #8F8F8F;
+	font-size : 14px;
+	line-height : 14px;   
+} 
+
+header section.header div.loginpanel form section.form {
+	padding-right : 15px; 
+}
+
+header section.header div.loginpanel form section.form p {
+	display : block;
+	text-align : left; 
+	padding : 8px 5px;  
+}
+
+header section.header div.loginpanel form section.form p input {
+	width : 150px; 
+	background-color : #dde; 
+	border-color: #C9CACB #fff #fff #C9CACB;
+	outline: none;
 }
