@@ -309,7 +309,7 @@ header section.header div.loginpanel {
 	box-shadow : 1px 1px 15px #222; 
 }
 
-header section.header div.loginpanel a.colse {
+header section.header div.loginpanel a.close {
 	display : block; 
 	background :  url(images/smallClose.png);
 	height : 30px;
