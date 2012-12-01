@@ -16,6 +16,7 @@
 	border : 1px solid #d4d4d4;
 	border-radius: 4px;
 	padding : 5px 10px; 
+	text-align : center; 
 }
 
 .btn:hover {
@@ -298,6 +299,21 @@ div.content div.mail a:hover {
 header section.header div.login {
 	top : 0px;
 	right : 10px; 
+	cursor : pointer;   
+}
+
+header section.header div.login span {
+	background: url(images/arrows-menu.png) 0 -100px;
+	background-repeat: no-repeat;
+	width: 10px;
+	height: 10px;
+	display: block;
+	position: absolute;
+	right: 45%;
+}
+
+header section.header div.login:hover span {
+	background-position: -10px -100px;
 }
 
 header section.header div.loginpanel {
@@ -309,7 +325,7 @@ header section.header div.loginpanel {
 	box-shadow : 1px 1px 15px #222; 
 }
 
-header section.header div.loginpanel a.colse {
+header section.header div.loginpanel a.close {
 	display : block; 
 	background :  url(images/smallClose.png);
 	height : 30px;
