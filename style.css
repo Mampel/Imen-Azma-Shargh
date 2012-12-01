@@ -305,16 +305,18 @@ header section.header div.login {
 header section.header div.login a {
 	text-decoration : none; 
 	color : #111;
+	display : block;
+	padding : 10px 8px;
 }
 
-header section.header div.login span {
+header section.header div.login a span {
 	background: url(images/arrows-menu.png) 0 -100px;
 	background-repeat: no-repeat;
 	width: 10px;
 	height: 10px;
 	display: block;
 	position: absolute;
-	right: 55%;
+	right: 50%;
 }
 
 header section.header div.login:hover span {
