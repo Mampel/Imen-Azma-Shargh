@@ -304,7 +304,7 @@ header section.header div.login {
 
 header section.header div.login a {
 	text-decoration : none; 
-	color : #111;
+	color : #ddd;
 	display : block;
 	padding : 10px 8px;
 }
