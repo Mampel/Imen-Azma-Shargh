@@ -396,10 +396,6 @@ header section.header div.loginpanel a#forgetpass:hover {
 }
 
 /***** Projects Status *****/
-div.content div.projects-status {
-	background-color : #f4f5f6;
-}
-
 div.content div.projects-status ul {
 	padding : 20px 30px;
 }
@@ -433,6 +429,7 @@ div.content div.projects-status ul li span.percentage {
 	font-size : 12px;
 	line-height : 12px; 
 	text-align : center; 
+	-webkit-transition: top 1s;
 	z-index : 10;
 } 
 
