@@ -233,7 +233,7 @@ div.gtranslate .skiptranslate {
 
 /***** Panel *****/
 div.content div.panel {
-	background-color : #e1e1e1; 
+	background-color : #f4f5f6; 
 	border-bottom : 3px solid #8dbcc6; 
 	margin-bottom : 15px; 
 	border-bottom-left-radius : 3px;
@@ -287,7 +287,7 @@ div.content div.mail a {
 	font-size : 15px;
 	line-height : 15px;
 	text-decoration : none;
-	color : #999; 
+	color : #666; 
 	padding : 15px ; 
 }
 
@@ -302,14 +302,21 @@ header section.header div.login {
 	cursor : pointer;   
 }
 
-header section.header div.login span {
+header section.header div.login a {
+	text-decoration : none; 
+	color : #111;
+	display : block;
+	padding : 10px 8px;
+}
+
+header section.header div.login a span {
 	background: url(images/arrows-menu.png) 0 -100px;
 	background-repeat: no-repeat;
 	width: 10px;
 	height: 10px;
 	display: block;
 	position: absolute;
-	right: 45%;
+	right: 50%;
 }
 
 header section.header div.login:hover span {
