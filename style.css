@@ -462,6 +462,8 @@ div.projects-list div.newsMainCase div.newsTrain ul > li{
 	/*line-height: 15px;*/
 	/*background-color: blue;*/
 	padding: 10px 0 10px 0;
+	display : block;
+	text-align : right; 
 }
 
 div.projects-list div.newsMainCase div.newsTrain ul > li:nth-child(even){
@@ -473,7 +475,6 @@ div.newsMainCase div.newsTrain ul > li > a{
 	text-decoration: none;
 	color: #999;
 	margin: 0 0 0 10px;
-	cursor: help;
 }
 
 div.newsMainCase div.newsTrain ul > li > a:hover{
@@ -482,7 +483,7 @@ div.newsMainCase div.newsTrain ul > li > a:hover{
 }
 
 div.newsMainCase div.newsTrain ul > li > span{
-	font-size : 
+	font-size : 10px;
 	color: gray;
 	font-style: italic;
 }
