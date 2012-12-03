@@ -402,32 +402,33 @@ div.content div.projects-status ul {
 
 div.content div.projects-status ul li {
 	float : left;
-	margin-left : 20px;
+	margin-left : 10px;
 	position : relative;
 }
 
 div.content div.projects-status ul li div.progressbar {
-	width : 30px;
+	width : 26px;
 	height : 100px;
 	background-color : darkcyan; 
-	margin : 0 35px;
+	margin : 0 22px;
 }
 
 div.content div.projects-status ul li span.titleprogresbar {
 	display : block;
-	width : 100px;
-	font-size : 13px; 
+	width : 70px;
+	font-size : 10px;
+	line-height : 10px;  
 	text-align : right; 
 	padding-top : 5px; 
 }
 
 
 div.content div.projects-status ul li span.percentage {
-	width : 100px;
+	width : 70px;
 	display : block;
 	position : absolute;
-	font-size : 12px;
-	line-height : 12px; 
+	font-size : 11px;
+	line-height : 11px; 
 	text-align : center; 
 	-webkit-transition: top 1s;
 	z-index : 10;
