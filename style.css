@@ -10,17 +10,22 @@
 	font-weight:normal;
 }
 
+*{
+	border: none !important;
+	outline: none !important;
+}
+
 .btn {
 	width : 60px;
 	background : url(images/bg_nav.png) repeat-x; 
-	border : 1px solid #d4d4d4;
+	border : 1px solid #d4d4d4 !important;
 	border-radius: 4px;
 	padding : 5px 10px; 
 	text-align : center; 
 }
 
 .btn:hover {
-	border-bottom-color : #2a65a0;
+	border-bottom-color : #2a65a0 !important;
 	background : url(images/bg_nav_hover.png) repeat-x;
 }
 
@@ -36,7 +41,7 @@ div.containers {
 
 div.containers > div,
 div.containers > footer {
-	border :1px solid blue;
+	/*border :1px solid blue;*/
 }
 
 div.containers header,
@@ -58,7 +63,7 @@ header > section {
 div.content > section > div,
 footer > div,
 header > section > div {
-	border : 1px solid yellow;
+	/*border : 1px solid yellow;*/
 } 
 
 /******** Nav *******/
@@ -158,7 +163,7 @@ footer section.fmenu ul li a {
 	line-height : 12px; 
 	padding :2px 8px 2px 6px;
 	text-align : right; 
-	border-right : 1px solid #666;
+	border-right : 1px solid #666 !important;
 	-webkit-transition : color 500ms;
 	-ms-transition : color 500ms;
 	-moz-transition : color 500ms;
