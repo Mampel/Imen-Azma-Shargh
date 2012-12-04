@@ -247,7 +247,7 @@ div.gtranslate .skiptranslate {
 }
 
 /***** Panel *****/
-div.content div.panel {
+div.panel {
 	background-color : #f4f5f6; 
 	border : 1px solid #C4C4C4 !important; 
 	border-bottom : 3px solid #8dbcc6 !important; 
@@ -255,7 +255,7 @@ div.content div.panel {
 	border-radius: 3px;   
 }
 
-div.content div.panel h2 {
+div.panel h2 {
 	font-size : 17px;
 	line-height : 17px; 
 	text-align : center; 
@@ -348,16 +348,18 @@ header section.header div.loginpanel {
 	top : 0;
 	right : 30%;
 	background : #f4f5f6;
-	padding : 5px;
 	border-radius : 5px; 
 	box-shadow : 1px 1px 15px #222; 
+	padding : 5px;
 }
 
 header section.header div.loginpanel a.close {
-	display : block; 
 	background :  url(images/smallClose.png);
 	height : 30px;
-	width : 36px;  
+	width : 36px; 
+	float :right;
+	line-height : 17px; 
+	margin-top : -6px; 
 }
 
 header section.header div.loginpanel a:hover {
@@ -379,7 +381,8 @@ header section.header div.loginpanel form section.form h2 {
 header section.header div.loginpanel form section.form h3 {
 	color : #8F8F8F;
 	font-size : 14px;
-	line-height : 14px;   
+	line-height : 14px; 
+	display : block;  
 } 
 
 header section.header div.loginpanel form section.form {
