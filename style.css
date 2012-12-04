@@ -237,10 +237,10 @@ div.gtranslate .skiptranslate {
 /***** Panel *****/
 div.content div.panel {
 	background-color : #f4f5f6; 
-	border-bottom : 3px solid #8dbcc6; 
-	margin-bottom : 15px; 
-	border-bottom-left-radius : 3px;
-	border-bottom-right-radius : 3px;    
+	border : 1px solid #C4C4C4 !important; 
+	border-bottom : 3px solid #8dbcc6 !important; 
+	margin : 6px 0; 
+	border-radius: 3px;   
 }
 
 div.content div.panel h2 {
