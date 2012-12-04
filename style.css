@@ -455,7 +455,6 @@ div.content div.projects-status ul li span.percentage {
 	font-size : 11px;
 	line-height : 11px; 
 	text-align : center; 
-	-webkit-transition: top 1s;
 	z-index : 10;
 	top:85px;
 } 
@@ -466,7 +465,6 @@ div.content div.projects-status ul li div.hider {
 	height : 100px;
 	background-color : #f4f5f6;
 	top : 0;
-	-webkit-transition: height 1s;
 }
 
 /***** list of project *****/
