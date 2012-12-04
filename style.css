@@ -39,6 +39,10 @@ div.containers {
 	width  : auto; /* default auto hast :D */ 
 }
 
+/*div.containers > div{
+	background: url(images/body.jpg) repeat left top;
+}*/
+
 div.containers > div,
 div.containers > footer {
 	/*border :1px solid blue;*/
@@ -68,7 +72,9 @@ header > section > div {
 
 /******** Nav *******/
 section.menubar {
-	background : url(images/bg_nav.png) repeat-x; 
+	background : url(images/bg_nav.png) repeat-x;
+	border: 1px solid #C4C4C4 !important;
+	border-radius: 3px;
 }
 
 div.nav nav {
@@ -85,8 +91,8 @@ div.nav > nav > menu > li {
 }
 
 div.nav > nav > menu > li span {
-	background : url(images/arrows-menu.png) 0 -100px;
-	background-repeat : no-repeat;
+	/*background : url(images/arrows-menu.png) 0 -100px;*/
+	/*background-repeat : no-repeat;*/
 	width : 10px;
 	height : 10px;
 	display : block;
@@ -179,7 +185,7 @@ footer section.fmenu ul li a:hover {
 }
 
 footer section.copyright{
-	margin: 11px 47px 0 0;
+	margin: 11px 7px 0 0;
 }
 
 footer section.copyright p {
@@ -257,9 +263,11 @@ div.content div.panel h2 {
 	color : #fff;
 	font-family :bold 'Yekan';
 	border-bottom : 1px solid #FFFFFF;
-	border-top-left-radius : 3px;
-	border-top-right-radius : 3px;
+/*	border-top-left-radius : 3px;
+	border-top-right-radius : 3px;*/
+	border-radius: 3px;
 	text-shadow : 1px 1px 0 #282a2b;
+	margin: 2px;
 	padding: 8px 0;  
 }
 
@@ -304,6 +312,11 @@ div.content div.mail a:hover {
 }
 
 /***** login *****/
+header section.header { 
+	margin-bottom: 5px; 
+	border-radius: 3px;
+	border: 1px solid #C4C4C4 !important;
+}
 header section.header div.login {
 	top : 0px;
 	right : 10px; 
@@ -408,8 +421,8 @@ header section.header div.loginpanel a#forgetpass:hover {
 
 /***** Projects Status *****/
 div.content div.projects-status ul {
-	padding : 0 30px;
-	margin-top : 30px; 
+	padding : 10px 30px;
+	margin-top : 20px; 
 }
 
 div.content div.projects-status ul li {
@@ -458,7 +471,8 @@ div.content div.projects-status ul li div.hider {
 
 /***** list of project *****/
 div.projects-list div.newsMainCase{
-	min-height: 200px;
+	min-height: 153px;
+	margin: 10px;
 	overflow: hidden;
 	position: relative;
 }
