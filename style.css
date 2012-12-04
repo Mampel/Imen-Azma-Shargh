@@ -171,11 +171,15 @@ footer section.fmenu ul li a {
 }
 
 footer section.fmenu ul li:first-child a {
-	border-right : 0; 
+	border-right : 0 !important; 
 }
 
 footer section.fmenu ul li a:hover {
 	color : #09F;
+}
+
+footer section.copyright{
+	margin: 11px 47px 0 0;
 }
 
 footer section.copyright p {
