@@ -72,7 +72,6 @@ section.menubar {
 }
 
 div.nav nav {
-	font-family:'Yekan';
 	/*font-family : Tahoma, Arial, sans-serif;*/
 }
 
@@ -148,7 +147,7 @@ div.fcontainers {
 }
 
 footer {
-	font-family:'Yekan';
+
 }
 
 footer section.fmenu ul li{
@@ -203,7 +202,6 @@ footer div.address p {
 	padding-right : 5px; 
 	text-align : right;
 	color : #ddd;
-	font-family:'Yekan';
 	font-size : 11px;
 	line-height : 18px; 
 }
@@ -261,15 +259,14 @@ div.content div.panel h2 {
 
 /***** Vote *****/
 div.content div.vote h3 {
-	font-size : 15px;
-	line-height : 15px;  
-	font-family : 'Yekan';
+	font-size : 13px;
+	line-height : 15px; 
 	color : #333;
 	padding : 5px;
 }
 
 div.content div.vote form {
-	font-size : 14px;
+	font-size : 13px;
 	line-height : 20px; 
 	padding : 10px 7px; 
 }
@@ -378,8 +375,10 @@ header section.header div.loginpanel form section.form p {
 
 header section.header div.loginpanel form section.form p input {
 	width : 150px; 
-	background-color : #dde; 
-	border-color: #C9CACB #fff #fff #C9CACB;
+	background-color : #dde;
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-color: #C9CACB #fff #fff #C9CACB !important;
 	outline: none;
 }
 
