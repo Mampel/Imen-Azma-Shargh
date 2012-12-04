@@ -181,7 +181,7 @@ footer section.fmenu ul li a:hover {
 footer section.copyright p {
 	display : block;
 	text-align : right;
-	direction : ltr;
+	direction : rtl;
 	font-size : 13px; 
 	color : #ddd;
 	padding-bottom : 10px; 
@@ -189,6 +189,8 @@ footer section.copyright p {
 }
 
 footer section.copyright p a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
 	color : #ddd;
 	text-decoration : none;
 }
@@ -286,7 +288,7 @@ div.content div.vote form input {
 /***** email *****/
 div.content div.mail a {
 	display : block;
-	font-size : 15px;
+	font-size : 17px;
 	line-height : 15px;
 	text-decoration : none;
 	color : #666; 
@@ -374,7 +376,8 @@ header section.header div.loginpanel form section.form p {
 }
 
 header section.header div.loginpanel form section.form p input {
-	width : 150px; 
+	width : 145px; 
+	padding: 0 5px;
 	background-color : #dde;
 	border-width: 1px !important;
 	border-style: solid !important;
