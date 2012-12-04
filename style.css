@@ -182,7 +182,7 @@ footer section.copyright p {
 	display : block;
 	text-align : right;
 	direction : rtl;
-	font-size : 13px; 
+	font-size : 11px; 
 	color : #ddd;
 	padding-bottom : 10px; 
 	text-shadow: 0 1px 10px #aaa;
@@ -190,7 +190,7 @@ footer section.copyright p {
 
 footer section.copyright p a {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
+	font-size: 9px;
 	color : #ddd;
 	text-decoration : none;
 }
@@ -213,6 +213,8 @@ footer div.address p span {
 }
 
 footer div.address p a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
 	text-decoration : none;
 	color : #ddd; 
 }
@@ -261,14 +263,14 @@ div.content div.panel h2 {
 
 /***** Vote *****/
 div.content div.vote h3 {
-	font-size : 13px;
+	font-size : 12px;
 	line-height : 15px; 
 	color : #333;
 	padding : 5px;
 }
 
 div.content div.vote form {
-	font-size : 13px;
+	font-size : 12px;
 	line-height : 20px; 
 	padding : 10px 7px; 
 }
@@ -451,6 +453,11 @@ div.content div.projects-status ul li div.hider {
 }
 
 /***** list of project *****/
+div.projects-list div.newsMainCase{
+	min-height: 200px;
+	overflow: hidden;
+	position: relative;
+}
 div.projects-list div.newsMainCase div.newsTrain{
 	position: absolute;;
 	top: 0;
