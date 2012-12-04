@@ -408,7 +408,8 @@ header section.header div.loginpanel a#forgetpass:hover {
 
 /***** Projects Status *****/
 div.content div.projects-status ul {
-	padding : 20px 30px;
+	padding : 0 30px;
+	margin-top : 20px; 
 }
 
 div.content div.projects-status ul li {
