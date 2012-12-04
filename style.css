@@ -442,3 +442,48 @@ div.content div.projects-status ul li div.hider {
 	-webkit-transition: height 1s;
 	height: 100px;
 }
+
+/***** list of project *****/
+div.projects-list div.newsMainCase div.newsTrain{
+	position: absolute;;
+	top: 0;
+	left: 0;
+}
+
+div.projects-list div.newsMainCase div.newsTrain ul{
+	list-style-image: url(images/Pencil.png);
+	font-family: Tahoma;
+	font-size: 11px;
+	margin-top: 0;
+}
+
+div.projects-list div.newsMainCase div.newsTrain ul > li{
+	/*min-height: 15px;*/
+	/*line-height: 15px;*/
+	/*background-color: blue;*/
+	padding: 10px 0 10px 0;
+	display : block;
+	text-align : right; 
+}
+
+div.projects-list div.newsMainCase div.newsTrain ul > li:nth-child(even){
+	/*background-color: red;*/
+}
+
+div.newsMainCase div.newsTrain ul > li > a{
+	font-size : 11px; 
+	text-decoration: none;
+	color: #999;
+	margin: 0 0 0 10px;
+}
+
+div.newsMainCase div.newsTrain ul > li > a:hover{
+	text-decoration: underline;
+	color: #09F;
+}
+
+div.newsMainCase div.newsTrain ul > li > span{
+	font-size : 10px;
+	color: gray;
+	font-style: italic;
+}
