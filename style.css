@@ -414,7 +414,7 @@ header section.header div.loginpanel a#forgetpass:hover {
 
 /***** Projects Status *****/
 div.content div.projects-status ul {
-	padding : 0 30px;
+	padding : 10px 30px;
 	margin-top : 20px; 
 }
 
@@ -463,7 +463,8 @@ div.content div.projects-status ul li div.hider {
 
 /***** list of project *****/
 div.projects-list div.newsMainCase{
-	min-height: 200px;
+	min-height: 153px;
+	margin: 10px;
 	overflow: hidden;
 	position: relative;
 }
