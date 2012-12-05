@@ -39,6 +39,10 @@ div.containers {
 	width  : auto; /* default auto hast :D */ 
 }
 
+/*div.containers > div{
+	background: url(images/body.jpg) repeat left top;
+}*/
+
 div.containers > div,
 div.containers > footer {
 	/*border :1px solid blue;*/
@@ -257,9 +261,11 @@ div.content div.panel h2 {
 	color : #fff;
 	font-family :bold 'Yekan';
 	border-bottom : 1px solid #FFFFFF;
-	border-top-left-radius : 3px;
-	border-top-right-radius : 3px;
+/*	border-top-left-radius : 3px;
+	border-top-right-radius : 3px;*/
+	border-radius: 3px;
 	text-shadow : 1px 1px 0 #282a2b;
+	margin: 2px;
 	padding: 8px 0;  
 }
 
