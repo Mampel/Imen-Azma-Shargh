@@ -185,7 +185,7 @@ footer section.fmenu ul li a:hover {
 }
 
 footer section.copyright{
-	margin: 11px 47px 0 0;
+	margin: 11px 7px 0 0;
 }
 
 footer section.copyright p {
@@ -312,6 +312,11 @@ div.content div.mail a:hover {
 }
 
 /***** login *****/
+header section.header { 
+	margin-bottom: 5px; 
+	border-radius: 3px;
+	border: 1px solid #C4C4C4 !important;
+}
 header section.header div.login {
 	top : 0px;
 	right : 10px; 
