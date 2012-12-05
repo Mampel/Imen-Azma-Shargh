@@ -457,15 +457,16 @@ div.content div.projects-status ul li span.percentage {
 	text-align : center; 
 	-webkit-transition: top 1s;
 	z-index : 10;
+	top:85px;
 } 
 
 div.content div.projects-status ul li div.hider {
 	position : absolute;
-	width : 30px;
+	width : 26px;
+	height : 100px;
 	background-color : #f4f5f6;
 	top : 0;
 	-webkit-transition: height 1s;
-	height: 100px;
 }
 
 /***** list of project *****/
