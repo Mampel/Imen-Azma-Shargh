@@ -5,7 +5,7 @@ $(function(){
 		newsMainCase = $('div.projects-list div.newsMainCase'),
 		iheight = lists.height(),
 		isize = lists.size(),
-		num2case = 5, // 7 /// num of li(es) in newsMainCase that are visible
+		num2case = 4, // 7 /// num of li(es) in newsMainCase that are visible
 		itop = 0;
 
 	(slideNews = function(){
@@ -37,4 +37,5 @@ $(function(){
 		percentages.eq(i).animate({top:85-percent+'px'},900);
 		hiders.eq(i).animate({height:100-percent+'px'},900);
 	};
+
 });
