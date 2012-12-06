@@ -329,6 +329,11 @@ header section.header {
 	border-radius: 3px;
 	border: 1px solid #C4C4C4 !important;
 }
+
+header section.header div.login-container{
+	z-index: 10;
+}
+
 header section.header div.login {
 	top : 0px;
 	right : 10px; 
@@ -343,8 +348,8 @@ header section.header div.login a {
 }
 
 header section.header div.login a span {
-	background: url(images/arrows-menu.png) 0 -100px;
-	background-repeat: no-repeat;
+/*	background: url(images/arrows-menu.png) 0 -100px;
+	background-repeat: no-repeat;*/
 	width: 10px;
 	height: 10px;
 	display: block;
@@ -362,7 +367,8 @@ header section.header div.loginpanel {
 	background : #f4f5f6;
 	padding : 5px;
 	border-radius : 5px; 
-	box-shadow : 1px 1px 15px #222; 
+	box-shadow : 1px 1px 15px #222;
+	display: none;
 }
 
 header section.header div.loginpanel a.close {
