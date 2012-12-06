@@ -8,10 +8,20 @@
 	<script type="text/javascript" src="script/html5shiv.js" ></script>
 	<script type="text/javascript" src="script/jquery.js" ></script>
 	<script type="text/javascript" src="script/script.js" ></script>
+
+
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
 	<!-- <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 </head>
 <body>
-	<div class="containers">
+	<div class="containers rel">
+		<div class="blackbar abs"></div>
 		<div class="w24 mlra">
 			<header class="w24">
 				<section class="rel mh20 header">
@@ -49,7 +59,20 @@
 							<a  href="#">ورود<span></span></a>
 						</div>
 					</div>
-					<div class="header-slider"></div>
+					<div class="header-slider">
+						
+
+
+			            <div id="slider" class="nivoSlider">
+			                <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+			                <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+			                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+			                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+			            </div>
+
+
+
+					</div>
 				</section>
 				<section class="cover menubar">
 					<div class="w6 mh3 lh2 left gtranslate last">
@@ -144,6 +167,9 @@
 					</div>
 					<div class="w16 mh16 mla sample-projects last">
 						<!-- sample project -->
+						<div class="mh33 panel">
+							<h2>پروژه های انجام شده</h2>
+						</div>
 					</div>
 				</section>
 				<section class="cover pb1">
@@ -260,5 +286,11 @@
 
 		</footer>
 	</div>
+    <script type="text/javascript" src="script/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 </body>
 </html>
