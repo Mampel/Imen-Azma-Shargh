@@ -323,6 +323,13 @@ div.content div.mail a:hover {
 	color : #09F;
 }
 
+/***** project slider *****/
+div.project-slider{
+	min-height: 300px;
+	border: 1px solid red !important;
+}
+
+
 /***** login *****/
 header section.header { 
 	margin-bottom: 5px; 
