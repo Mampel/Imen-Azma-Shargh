@@ -29,7 +29,7 @@ $(function(){
 
 	//animate progress bars
 	var hiders=$('div.content div.projects-status ul div.hider'),
-	percentages=$('div.content div.projects-status ul span.percentage');
+		percentages=$('div.content div.projects-status ul span.percentage');
 	for (var i = 0; i <= percentages.length - 1; i++) {
 		str=percentages.eq(i).text();
 		str.replace("%","");
