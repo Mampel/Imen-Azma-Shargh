@@ -635,10 +635,10 @@
     
     //Default settings
     $.fn.nivoSlider.defaults = {
-        effect: 'boxRandom', //sliceDownLeft,boxRainGrowReverse,boxRainGrow,boxRain
+        effect: 'boxRainGrowReverse', //sliceDownLeft,boxRainGrowReverse,boxRainGrow,boxRain
         slices: 15,
         boxCols: 14,
-        boxRows: 4,
+        boxRows: 5,
         animSpeed: 500,
         pauseTime: 3000,
         startSlide: 0,
