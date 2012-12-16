@@ -325,7 +325,6 @@ div.content div.mail a:hover {
 
 /***** project slider *****/
 div.project-slider{
-	min-height: 300px;
 	border: 1px solid red !important;
 	position:relative;
 }
