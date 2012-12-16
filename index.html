@@ -16,9 +16,9 @@
 		<div class="blackbar abs"></div>
 		<div class="w24 mlra">
 			<header class="w24">
-				<section class="rel mh20 header">
+				<section class="mh20 header rel">
 					<div class="login-container abs">
-						<div class="w10 mh4 panel loginpanel">
+						<div class="w10 mh4 panel loginpanel abs">
 							<h2>
                				<a class="close" href="#"></a>
                 				ورود
@@ -30,7 +30,7 @@
 									<p >
 		                				<span>نام کاربری:</span>
 										<abbr title="نام کاربری">
-											<input class="txt" title="username" type="text" id="txt_username" placeholder='نام کاربری' />
+											<input class="txt" title="username" type="text" id="txt_username" placeholder='نام کاربری' onfocus="if(this.attr('placeholder')=='نام کاربری') { this.value = ''; }" />
 										</abbr>
 									</p>	
 									<p >
@@ -156,7 +156,56 @@
 						<!-- sample project -->
 						<div class="mh33 panel">
 							<h2>پروژه های انجام شده</h2>
-							<div class="project-slider"></div>
+							<div class="project-slider">
+					        	<div class="case-train">
+					            	<div class="train">
+					                    <div>
+					                        <div class="img_project">
+					                            <img src="images/edalat.jpg" alt="" />
+					                        </div>
+					                        <div class="info_project">
+					                            <h3>پروژه هتل عدالت</h3>
+					                            <p><span>کارفرما:</span> معاونت محترم مهندسی قوه قضائیه</p>
+					                            <p><span>مشاور:</span> مهندسین مشاور اوت</p>
+					                            <p><span>سال انجام:</span> 1390</p>
+					                            <p><span>آدرس:</span> مشهد - خیابان کوهسنگی نبش کوهسنگی 18</p>
+					                            <p><span>توضیحات:</span> </p>
+					                        </div>
+					                    </div>
+					                    <div>
+					                        <div class="img_project">
+					                            <img src="images/edalat.jpg" alt="" />
+					                        </div>
+					                        <div class="info_project">
+					                            <h3>پروژه هتل عدالت</h3>
+					                            <p>کارفرما: معاونت محترم مهندسی قوه قضائیه</p>
+					                            <p>مشاور: مهندسین مشاور اوت</p>
+					                            <p>سال انجام: 1390</p>
+					                            <p>آدرس: مشهد - خیابان کوهسنگی نبش کوهسنگی 18</p>
+					                            <p>توضیحات: </p>
+					                        </div>
+					                    </div>
+					                    <div>
+					                        <div class="img_project">
+					                            <img src="images/edalat.jpg" alt="" />
+					                        </div>
+					                        <div class="info_project">
+					                            <h3>پروژه هتل عدالت</h3>
+					                            <p>کارفرما: معاونت محترم مهندسی قوه قضائیه</p>
+					                            <p>مشاور: مهندسین مشاور اوت</p>
+					                            <p>سال انجام: 1390</p>
+					                            <p>آدرس: مشهد - خیابان کوهسنگی نبش کوهسنگی 18</p>
+					                            <p>توضیحات: </p>
+					                        </div>
+					                    </div>
+					                </div>
+					            </div>
+					            <ul class="nav-bar">
+					            	<li><a href="#"></a></li>
+					                <li><a href="#"></a></li>
+					                <li><a href="#"></a></li>
+					            </ul>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -271,7 +320,7 @@
 					</p>
 				</section>
 			</div>
-
+			<div class="lightbox"></div>
 		</footer>
 	</div>
     <script type="text/javascript" src="script/jquery.nivo.slider.js"></script>
