@@ -38,4 +38,54 @@ $(function(){
 		hiders.eq(i).animate({height:100-percent+'px'},900);
 	};
 
+
+	// project slider
+	var slideshow = $('div.project-slider'),
+		train = $('div.project-slider div.case-train div.train'),
+		lists = $('div.project-slider ul.nav-bar > li'),
+		currentSlide = 0;
+
+	(show_pic = function(n){
+		if(n>lists.length-1) n=0;
+		if(n<0) n=lists.length-1;
+		train.css({
+			left : (-625*n) + 'px'
+		});
+		lists.eq(currentSlide).removeClass('active');
+		lists.eq(n).addClass('active');
+		currentSlide = n;
+	})(0);
+
+	next_slide = function(){
+		show_pic(currentSlide + 1);
+	}
+	
+	back_slide = function(){
+		show_pic(currentSlide - 1);
+	}
+	
+	var intervalName = false;
+	(startSliding = function(){
+		if(intervalName) return;
+		intervalName = setInterval(next_slide,20000000);
+	})();
+	
+	stopSliding = function(){
+		if(!intervalName) return;
+		clearInterval(intervalName);
+		intervalName = false;
+	}
+	
+	for(var i=0; i<lists.length; i++){
+		(function(j){
+			lists.eq(j).click(function(){
+				show_pic(j);
+			})
+		})(i);
+	}	
+	
+	slideshow.mouseover(stopSliding);
+	slideshow.mouseout(startSliding);
+	// end project slider
+
 });
