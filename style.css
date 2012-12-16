@@ -380,6 +380,7 @@ div.case-train div.train > div > div.info_project{
 	height: 200px;
 	margin-right: 240px;
 	padding: 20px;
+	text-align : right; 
 	font-family: 'Yekan';
 	direction: rtl;
 	border: 1px solid orange;
@@ -403,6 +404,7 @@ div.project-slider ul.nav-bar{
 	bottom:0;
 	left:0;
 	padding-top : 5px; 
+	padding-bottom : 15px;
 	border:1px solid blue;
 }
 
